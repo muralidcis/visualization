@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 public class Range {
 	private double min;

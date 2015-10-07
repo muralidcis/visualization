@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 import java.awt.Color;
 import java.util.Arrays;

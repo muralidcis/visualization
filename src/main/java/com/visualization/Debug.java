@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 /**
  * @author patrick.riehmann(at)medien.uni-weimar.de

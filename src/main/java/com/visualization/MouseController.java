@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;

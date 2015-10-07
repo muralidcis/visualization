@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 
 
@@ -19,7 +19,7 @@ public class Frame extends JFrame {
 
     private void initUI(){
 
-        setTitle("Visualization Final Project - Yasar Naci GŸndŸz / Preetha Moorthi");
+        setTitle("Visualization Final Project - Yasar Naci Gï¿½ndï¿½z / Preetha Moorthi");
         Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
         m = new Model();
         View view = new View();

@@ -1,4 +1,4 @@
-package vfp.main;
+package com.visualization;
 
 //import infovis.debug.Debug;
 //import infovis.scatterplot.Range;
