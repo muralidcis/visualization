@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.ajoberstar:gradle-git:0.6.1'
+    }
+}
+
+import org.ajoberstar.gradle.git.tasks.GitTag
+import org.ajoberstar.gradle.git.tasks.GitPush
+
+def newTagName = "V2.1.19"
+
+task createTag(type: GitTag) {
+    repoPath = rootDir
+    tagName = newTagName
+    message = "Application release for the taged version: "+newTagName;
+}
+
+task pushTag(type: GitPush, dependsOn: createTag) {
+     println 'tag pushed '+newTagName;
+}
+
